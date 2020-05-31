@@ -1,0 +1,85 @@
+.detaildiv{
+	width: 33%;
+    height: 545px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 75px;
+    margin-left: 10px;
+    border: 1px solid #c4c4c4;
+    box-shadow: 7px 8px 12px #929191;
+    background-color: #dad8d8;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f8f9fa;
+    background-color: #6c757d;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-bottom-width: 0px;
+}
+
+.detaildiv .active {
+    background-color: #dad8d8;
+}
+
+a:hover {
+    color: black;
+}
+
+.offersdiv{
+    margin-top: 5px;
+	position: absolute;
+	margin-left: 50px;
+    width: 91%;
+}
+
+
+.offersdiv .row{
+    padding-bottom: 10px;
+    padding-top: 16px;
+    border: solid 1px #c4c4c4;
+    border-radius: 9px;
+    margin-top: 16px;
+    background: #eff1f4;
+    margin-bottom: 15px;
+    margin-right: 43px;
+    margin-left: 0px;
+    box-shadow: 7px 8px 12px #929191;
+}
+
+.invisible{
+    display: none;
+}
+
+.offersdiv .row .col-4{
+    padding: 15px;
+}
+
+.labels{
+    text-align: start;
+    margin-top: 52px;
+    margin-left: 22px;
+    width: 808px;
+    font-size: 20px;
+    background-color: grey;
+    position: fixed;
+    z-index: 2;
+}
+
+.datadiv input{
+    border: none;
+    background: #dad8d8;
+    border-bottom: 1px solid black;
+}
+
+.space{
+    margin-top: 56px;
+    height: 15px;
+    width: 900px;
+    margin-left: 22px;
+    z-index: 1;
+    position: fixed;
+    background: white;
+}

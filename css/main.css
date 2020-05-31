@@ -1,0 +1,221 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body{font-family: 'Montserrat', sans-serif !important; font-weight: 500}
+a{color: inherit;}
+
+.no-scrollbar::-webkit-scrollbar {
+  height: 0;
+}
+
+
+#navbar{
+  position: fixed;
+  width:100%;
+  z-index: 1;
+
+}
+
+.w150{
+  width: 150px;
+}
+
+.dropdown-menu{
+  z-index: 5;
+}
+
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}*/
+
+#footerdiv{
+    padding-left: 34%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 66px;
+    background-color: #272525;
+    color: white;
+    /*text-align: center;*/
+    padding-top: 16px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#adminbtn{
+    padding-bottom: 5px;
+    margin-left: 30%;
+}
+
+#toast-container > div {
+	padding-left: 15px;
+	text-align: center;
+	border-radius: 0;
+}
+
+/* MDBootsrap Styling */
+.btn{margin: 0; border-radius: 0}
+
+.carousel-indicators{
+	margin-left: -59%;
+	margin-bottom: 0px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {display: none;}
+.btn:not([disabled]):not(.disabled):active, .btn:not([disabled]):not(.disabled).active{box-shadow: none;}
+.border-bottom, .border-top, .border, .border-left, .border-right{border-color: #eff1f4 !important}
+.pb-2-5, .py-2-5 { padding-bottom: 0.75rem !important; }
+.pt-2-5, .py-2-5 { padding-top: 0.75rem !important; }
+
+/* NgSelect */
+.ng-select.ng-select-focused .ng-select-container:after{border-color: black;}
+.ng-select.ng-select-focused .ng-select-container .ng-value-container .ng-placeholder{color: black;}
+.ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected{color: #ff3651}
+.custom.ng-dropdown-panel.ng-select-bottom, .ng-dropdown-panel.ng-select-top{box-shadow: none; left: 0;}
+.border-0.ng-select .ng-select-container:after{border-bottom: none;}
+.border-0.ng-select.ng-select-single .ng-select-container .ng-arrow-wrapper{align-self: center; bottom: 0}
+.border-0.ng-select.ng-select-single .ng-select-container .ng-value-container .ng-input{bottom: 13px}
+.border-0.ng-select{padding-bottom: 0}
+.returns.ng-select .ng-select-container{
+  background-color: #eff1f4;
+  border-radius: 25px;
+  padding: 0px 20px;
+}
+.returns.ng-select .ng-select-container .ng-value-container{border-top: none;align-self: center;}
+.returns.ng-select.ng-select-single .ng-select-container .ng-arrow-wrapper{bottom: 0; align-self: center}
+.returns.ng-select .ng-select-container:after{border-bottom: none}
+
+/* FONT */
+.f30{font-size: 30px}
+.f22{font-size: 22px}
+.f20{font-size: 20px}
+.f18{font-size: 18px}
+.f17{font-size: 17px}
+.f16{font-size: 16px}
+.f15{font-size: 15px}
+.f14{font-size: 14px}
+.f13{font-size: 13px}
+.f12{font-size: 12px}
+.f10{font-size: 10px}
+.font-bold{font-weight: 600 !important}
+.md-form label, .font-small{font-size: small}
+
+/* UTILITY */
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.5s;
+  z-index: 5;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  transition: bottom 0.5s;
+  z-index: 5;
+}
+.lspace1{letter-spacing: 1px}
+.lspace2{letter-spacing: 2px}
+.lh1{line-height: 1.3}
+.ellipsis{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.pointer{cursor: pointer;}
+.strikethrough {position: relative;}
+.br-10{border-radius: 10px;}
+.br-25{border-radius: 25px;}
+.br-5{border-radius: 5px;}
+
+.rightbr-5{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.leftbr-5{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.text-upper{text-transform: uppercase;}
+.no-select{
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: -5%;
+  top: 50%;
+  width: 110%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(7deg);
+  -moz-transform:rotate(7deg);
+  -ms-transform:rotate(7deg);
+  -o-transform:rotate(7deg);
+  transform:rotate(7deg);
+}
+
+/* BACKGROUND COLOR */
+.bg-white1{background-color: #f5f8f9}
+.bg-grey1{background-color: #eff1f4}
+.bg-grey2{background-color: #c4c4c4}
+.bg-grey3{background-color: #888c8d}
+.bg-grey4{background-color: #76848b}
+.bg-black{background-color: #242c37}
+.bg-pink1{background-color: #ff3651}
+.bg-yellow1{background-color: #DCCF14}
+.bg-green1{background-color: #B7FFD5}
+.bg-green2{background-color: #1c9056}
+
+/* TEXT COLOR */
+.text-white1{color: #f5f8f9}
+.text-grey1{color: #eff1f4}
+.text-grey2{color: #c4c4c4}
+.text-grey3{color: #888c8d}
+.text-grey4{color: #76848b}
+.text-black{color: #242c37}
+.text-pink1{color: #ff3651}
+.text-yellow1{color: #DCCF14}
+.text-green1{color: #B7FFD5}
+.text-green2{color: #1c9056}
+.text-yellow{color: #D6DA57}
+
+/* WIDTH & HEIGHT */
+.w100{width: 100%}
+/* CSS for Fonts-Icons */
+

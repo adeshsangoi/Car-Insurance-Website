@@ -1,0 +1,31 @@
+.policieslist{
+	/*margin-right: 60px;*/
+}
+
+.policyDiv{
+	padding-right: 80px;
+	padding-left: 30px;
+}
+
+.form-row{
+	padding-left: 20px;
+}
+
+.profileDiv{
+	background-color: rgb(233,236,239);
+    border: 1px solid #c4c4c4;
+    box-shadow: 8px 9px 11px #c4c4c4;
+    height: 520px;
+    /*position: fixed;*/
+    width: 102%;
+    margin-left: 10px;
+}
+
+.pl40{
+    margin-left: 40px;
+}
+
+.claimsbtn{
+    margin-left: 300px;
+    height: 40px;
+}
